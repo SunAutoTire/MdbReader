@@ -1,5 +1,7 @@
 # MdbTools in C#
 
+> An apparent bug exists in repository this is branched from. Until that issue can be addressed, I have forked this for use by this organization. The issue has been addressed in this fork, but only so that it works for the requirements of this organization. If the bug is addressed in the original repository, then this fork will be scuttled.
+
 Currently pre-pre alpha, can read table definition and row values. Loosely based on MdbTools
 (https://github.com/mdbtools/mdbtools) and deeply indebted to their work documenting the mdb format
 (https://github.com/mdbtools/mdbtools/blob/dev/HACKING.md)
