@@ -165,7 +165,7 @@ public sealed partial class MdbDataRow
     public object? GetValue(string columnName)
     {
         var fieldValue = GetFieldValue(columnName);
-        if (fieldValue.IsNull) return null;
+        // if (fieldValue.IsNull) return null;
         return fieldValue.Value;
     }
 }
